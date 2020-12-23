@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A04B1C424C6078000AA6D05 /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A04B1C324C6078000AA6D05 /* UtilityFunctions.swift */; };
+		4A04B1CC24C6604400AA6D05 /* ErrorSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A04B1CB24C6604400AA6D05 /* ErrorSignupViewController.swift */; };
+		4A25CBC124C872570041DF6E /* ErrorRetrievingPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A25CBC024C872570041DF6E /* ErrorRetrievingPassViewController.swift */; };
+		4A25CBC324C88DA50041DF6E /* UsernamePasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A25CBC224C88DA50041DF6E /* UsernamePasswordModel.swift */; };
+		4A61212624C9D6D200E535CB /* ResultUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61212524C9D6D200E535CB /* ResultUIViewController.swift */; };
+		4A61212824C9F07B00E535CB /* AccountBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61212724C9F07B00E535CB /* AccountBalance.swift */; };
+		4A83837024BB569900A58708 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A83836F24BB569900A58708 /* HomeViewController.swift */; };
+		4A83837224BB5E0200A58708 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A83837124BB5E0100A58708 /* FormViewController.swift */; };
+		4A83837424BB5E1400A58708 /* BankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A83837324BB5E1400A58708 /* BankViewController.swift */; };
+		4A83837624BB5E4A00A58708 /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A83837524BB5E4A00A58708 /* PieChartViewController.swift */; };
+		4A8840F324BA7936005AE9C7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8840F224BA7936005AE9C7 /* LoginViewController.swift */; };
+		4A8840F524BA7F43005AE9C7 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8840F424BA7F43005AE9C7 /* SignupViewController.swift */; };
+		4A8840F724BA9EA1005AE9C7 /* RetrieveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8840F624BA9EA1005AE9C7 /* RetrieveViewController.swift */; };
+		4A8840F924BAB57E005AE9C7 /* RetrieveUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8840F824BAB57E005AE9C7 /* RetrieveUsernameViewController.swift */; };
+		4A8840FB24BAB5DA005AE9C7 /* RetrievePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8840FA24BAB5DA005AE9C7 /* RetrievePasswordViewController.swift */; };
+		4AA1385024C8E34F007C9378 /* PurchaseListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA1384F24C8E34F007C9378 /* PurchaseListModel.swift */; };
+		4AC1A58324CCA268004375E8 /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC1A58224CCA268004375E8 /* Theme.xcassets */; };
+		4AC3917124C3E7F000DD4362 /* RowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC3916F24C3E7F000DD4362 /* RowTableViewCell.swift */; };
+		4AC3917224C3E7F000DD4362 /* RowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AC3917024C3E7F000DD4362 /* RowTableViewCell.xib */; };
+		4AE9E62324C70D1400CF253D /* ErrorLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE9E62224C70D1400CF253D /* ErrorLoginViewController.swift */; };
+		4AE9E62524C744EC00CF253D /* ErrorRetrievingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE9E62424C744EC00CF253D /* ErrorRetrievingViewController.swift */; };
+		4AF266C124BA1A420082FF00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF266C024BA1A420082FF00 /* AppDelegate.swift */; };
+		4AF266C324BA1A420082FF00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF266C224BA1A420082FF00 /* SceneDelegate.swift */; };
+		4AF266C524BA1A420082FF00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF266C424BA1A420082FF00 /* ViewController.swift */; };
+		4AF266C824BA1A420082FF00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF266C624BA1A420082FF00 /* Main.storyboard */; };
+		4AF266CA24BA1A430082FF00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF266C924BA1A430082FF00 /* Assets.xcassets */; };
+		4AF266CD24BA1A430082FF00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF266CB24BA1A430082FF00 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A04B1C324C6078000AA6D05 /* UtilityFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityFunctions.swift; sourceTree = "<group>"; };
+		4A04B1CB24C6604400AA6D05 /* ErrorSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorSignupViewController.swift; sourceTree = "<group>"; };
+		4A25CBC024C872570041DF6E /* ErrorRetrievingPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorRetrievingPassViewController.swift; sourceTree = "<group>"; };
+		4A25CBC224C88DA50041DF6E /* UsernamePasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernamePasswordModel.swift; sourceTree = "<group>"; };
+		4A61212524C9D6D200E535CB /* ResultUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultUIViewController.swift; sourceTree = "<group>"; };
+		4A61212724C9F07B00E535CB /* AccountBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalance.swift; sourceTree = "<group>"; };
+		4A83836F24BB569900A58708 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4A83837124BB5E0100A58708 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		4A83837324BB5E1400A58708 /* BankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankViewController.swift; sourceTree = "<group>"; };
+		4A83837524BB5E4A00A58708 /* PieChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
+		4A8840F224BA7936005AE9C7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4A8840F424BA7F43005AE9C7 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		4A8840F624BA9EA1005AE9C7 /* RetrieveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveViewController.swift; sourceTree = "<group>"; };
+		4A8840F824BAB57E005AE9C7 /* RetrieveUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveUsernameViewController.swift; sourceTree = "<group>"; };
+		4A8840FA24BAB5DA005AE9C7 /* RetrievePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrievePasswordViewController.swift; sourceTree = "<group>"; };
+		4AA1384F24C8E34F007C9378 /* PurchaseListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseListModel.swift; sourceTree = "<group>"; };
+		4AA6186B24CA6442000BD34C /* Digital WalletRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Digital WalletRelease.entitlements"; sourceTree = "<group>"; };
+		4AC1A58224CCA268004375E8 /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
+		4AC3916F24C3E7F000DD4362 /* RowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowTableViewCell.swift; sourceTree = "<group>"; };
+		4AC3917024C3E7F000DD4362 /* RowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RowTableViewCell.xib; sourceTree = "<group>"; };
+		4AE9E62224C70D1400CF253D /* ErrorLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorLoginViewController.swift; sourceTree = "<group>"; };
+		4AE9E62424C744EC00CF253D /* ErrorRetrievingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorRetrievingViewController.swift; sourceTree = "<group>"; };
+		4AF266BD24BA1A420082FF00 /* Digital Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF266C024BA1A420082FF00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AF266C224BA1A420082FF00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4AF266C424BA1A420082FF00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AF266C724BA1A420082FF00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AF266C924BA1A430082FF00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AF266CC24BA1A430082FF00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AF266CE24BA1A430082FF00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AF266BA24BA1A420082FF00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AF266B424BA1A420082FF00 = {
+			isa = PBXGroup;
+			children = (
+				4AF266BF24BA1A420082FF00 /* Digital Wallet */,
+				4AF266BE24BA1A420082FF00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AF266BE24BA1A420082FF00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AF266BD24BA1A420082FF00 /* Digital Wallet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AF266BF24BA1A420082FF00 /* Digital Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				4AA6186B24CA6442000BD34C /* Digital WalletRelease.entitlements */,
+				4AF266C024BA1A420082FF00 /* AppDelegate.swift */,
+				4AF266C224BA1A420082FF00 /* SceneDelegate.swift */,
+				4AF266C424BA1A420082FF00 /* ViewController.swift */,
+				4A8840F224BA7936005AE9C7 /* LoginViewController.swift */,
+				4A8840F424BA7F43005AE9C7 /* SignupViewController.swift */,
+				4A8840F624BA9EA1005AE9C7 /* RetrieveViewController.swift */,
+				4A8840F824BAB57E005AE9C7 /* RetrieveUsernameViewController.swift */,
+				4A8840FA24BAB5DA005AE9C7 /* RetrievePasswordViewController.swift */,
+				4A83836F24BB569900A58708 /* HomeViewController.swift */,
+				4A83837124BB5E0100A58708 /* FormViewController.swift */,
+				4A83837324BB5E1400A58708 /* BankViewController.swift */,
+				4A83837524BB5E4A00A58708 /* PieChartViewController.swift */,
+				4AF266C624BA1A420082FF00 /* Main.storyboard */,
+				4AF266C924BA1A430082FF00 /* Assets.xcassets */,
+				4AC1A58224CCA268004375E8 /* Theme.xcassets */,
+				4AF266CB24BA1A430082FF00 /* LaunchScreen.storyboard */,
+				4AF266CE24BA1A430082FF00 /* Info.plist */,
+				4AC3916F24C3E7F000DD4362 /* RowTableViewCell.swift */,
+				4AC3917024C3E7F000DD4362 /* RowTableViewCell.xib */,
+				4A04B1C324C6078000AA6D05 /* UtilityFunctions.swift */,
+				4A04B1CB24C6604400AA6D05 /* ErrorSignupViewController.swift */,
+				4AE9E62224C70D1400CF253D /* ErrorLoginViewController.swift */,
+				4AE9E62424C744EC00CF253D /* ErrorRetrievingViewController.swift */,
+				4A25CBC024C872570041DF6E /* ErrorRetrievingPassViewController.swift */,
+				4A25CBC224C88DA50041DF6E /* UsernamePasswordModel.swift */,
+				4AA1384F24C8E34F007C9378 /* PurchaseListModel.swift */,
+				4A61212524C9D6D200E535CB /* ResultUIViewController.swift */,
+				4A61212724C9F07B00E535CB /* AccountBalance.swift */,
+			);
+			path = "Digital Wallet";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AF266BC24BA1A420082FF00 /* Digital Wallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF266D124BA1A430082FF00 /* Build configuration list for PBXNativeTarget "Digital Wallet" */;
+			buildPhases = (
+				4AF266B924BA1A420082FF00 /* Sources */,
+				4AF266BA24BA1A420082FF00 /* Frameworks */,
+				4AF266BB24BA1A420082FF00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Digital Wallet";
+			productName = "Digital Wallet";
+			productReference = 4AF266BD24BA1A420082FF00 /* Digital Wallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AF266B524BA1A420082FF00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Meisam Koohaki";
+				TargetAttributes = {
+					4AF266BC24BA1A420082FF00 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4AF266B824BA1A420082FF00 /* Build configuration list for PBXProject "Digital Wallet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AF266B424BA1A420082FF00;
+			productRefGroup = 4AF266BE24BA1A420082FF00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AF266BC24BA1A420082FF00 /* Digital Wallet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AF266BB24BA1A420082FF00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC3917224C3E7F000DD4362 /* RowTableViewCell.xib in Resources */,
+				4AF266CD24BA1A430082FF00 /* LaunchScreen.storyboard in Resources */,
+				4AC1A58324CCA268004375E8 /* Theme.xcassets in Resources */,
+				4AF266CA24BA1A430082FF00 /* Assets.xcassets in Resources */,
+				4AF266C824BA1A420082FF00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AF266B924BA1A420082FF00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A61212824C9F07B00E535CB /* AccountBalance.swift in Sources */,
+				4A8840F324BA7936005AE9C7 /* LoginViewController.swift in Sources */,
+				4A8840F924BAB57E005AE9C7 /* RetrieveUsernameViewController.swift in Sources */,
+				4A61212624C9D6D200E535CB /* ResultUIViewController.swift in Sources */,
+				4A25CBC324C88DA50041DF6E /* UsernamePasswordModel.swift in Sources */,
+				4AF266C524BA1A420082FF00 /* ViewController.swift in Sources */,
+				4A8840F524BA7F43005AE9C7 /* SignupViewController.swift in Sources */,
+				4AC3917124C3E7F000DD4362 /* RowTableViewCell.swift in Sources */,
+				4A25CBC124C872570041DF6E /* ErrorRetrievingPassViewController.swift in Sources */,
+				4AF266C124BA1A420082FF00 /* AppDelegate.swift in Sources */,
+				4A83837024BB569900A58708 /* HomeViewController.swift in Sources */,
+				4AA1385024C8E34F007C9378 /* PurchaseListModel.swift in Sources */,
+				4A04B1CC24C6604400AA6D05 /* ErrorSignupViewController.swift in Sources */,
+				4A83837624BB5E4A00A58708 /* PieChartViewController.swift in Sources */,
+				4A8840F724BA9EA1005AE9C7 /* RetrieveViewController.swift in Sources */,
+				4AF266C324BA1A420082FF00 /* SceneDelegate.swift in Sources */,
+				4AE9E62324C70D1400CF253D /* ErrorLoginViewController.swift in Sources */,
+				4A83837224BB5E0200A58708 /* FormViewController.swift in Sources */,
+				4A83837424BB5E1400A58708 /* BankViewController.swift in Sources */,
+				4A04B1C424C6078000AA6D05 /* UtilityFunctions.swift in Sources */,
+				4AE9E62524C744EC00CF253D /* ErrorRetrievingViewController.swift in Sources */,
+				4A8840FB24BAB5DA005AE9C7 /* RetrievePasswordViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4AF266C624BA1A420082FF00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AF266C724BA1A420082FF00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AF266CB24BA1A430082FF00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AF266CC24BA1A430082FF00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AF266CF24BA1A430082FF00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AF266D024BA1A430082FF00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AF266D224BA1A430082FF00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Digital Wallet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Georgian-Digital-Wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AF266D324BA1A430082FF00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Digital Wallet/Digital WalletRelease.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Digital Wallet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Georgian.Digital-Wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AF266B824BA1A420082FF00 /* Build configuration list for PBXProject "Digital Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF266CF24BA1A430082FF00 /* Debug */,
+				4AF266D024BA1A430082FF00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF266D124BA1A430082FF00 /* Build configuration list for PBXNativeTarget "Digital Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF266D224BA1A430082FF00 /* Debug */,
+				4AF266D324BA1A430082FF00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AF266B524BA1A420082FF00 /* Project object */;
+}
